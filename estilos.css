@@ -10,6 +10,7 @@
 img {
     height: 500px;
     width: 50%;
+    margin-top: 20px;
     
 }
 
@@ -27,11 +28,12 @@ img {
 
 
 .film__list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 35% 35% 30%;
     display: grid;
     list-style: none;
-    margin-left: 80px;
+    margin-left: 120px;
     padding-bottom: 100px;
+    
 }
 
 
@@ -54,14 +56,10 @@ p {
 
 button {
     font-size: 40px;
-    margin: 0 30px;
     border: none;
     color: #fff;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-right: 40px;
 }
 
-button:hover {
-    cursor: pointer;
-    color: rgb(237, 11, 11);
-}
