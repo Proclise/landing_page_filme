@@ -10,9 +10,9 @@
 img {
     height: 500px;
     width: 50%;
-    margin-top: 20px;
     
 }
+
 
 .film__list__sinopse {
     list-style: none;
@@ -50,6 +50,8 @@ p {
     margin-top: 15px;
 }
 
+
+
 .film__tabs {
     text-align: center;
 }
@@ -59,7 +61,36 @@ button {
     border: none;
     color: #fff;
     margin-bottom: 30px;
-    margin-top: 40px;
-    margin-right: 40px;
+    margin-top: 20px;
 }
 
+
+@media screen and (max-width: 768px) { 
+    img {
+        width: 100%;
+    }
+
+    .film__list__sinopse {
+        width: 90%;
+    }
+
+    .film__list {
+        display: block;
+        margin: auto 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+    .film__list__sinopse {
+        width: 90%;
+    }
+    
+    .film__list {
+        width: 100%;
+        grid-template-columns: 50% 50%;
+    }
+
+}
